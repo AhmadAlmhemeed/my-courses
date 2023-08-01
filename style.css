@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --first_color:#018498;
+    --second_color:#F6A800;
+    --black_color:#343434;
+    --white_color:#F8F8F8;
+    --silver_color:#979797;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box !important;
+    font-family: 'Cairo', sans-serif !important;
+    font-weight: bold !important;
+}
+.navbar{
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white_color);
+    color: var(--black_color);
+    width: 100%;
+    box-shadow: 1px 1px 5px #343434;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    margin: 0 50px;
+    cursor:pointer;
+    color: var(--black_color);
+    text-decoration: none;
+}
+.navbar div img{
+    width: 42px;
+    background-color: var(--black_color);
+    border-radius: 50%;
+}
+.sin_btn{
+    background-color: var(--first_color);
+    border: 3px solid transparent;
+    color: #fff;
+    padding: 5px 40px;
+    border-radius: 5px;
+}
+.navbar ul li a:hover,.navbar ul li a:focus,.navbar ul li a.active {
+    color: var(--second_color);
+}
+.sin_btn:hover{
+    background-color: var(--white_color);
+    border: 3px solid var(--first_color);
+    color: var(--first_color);
+}
+.heading_section h2{
+    margin: 10px 0;
+}
+.heading_section h4{
+    color: var(--second_color);
+    margin-bottom: 5px;
+}
+.heading_section div div{
+    border-radius: 2px;
+    width: 300px;
+    border: var(--black_color) 2px solid;
+}
+.heading_section p{
+    color: var(--silver_color);
+    margin-top: 10px;
+    font-size: 14px;
+}
+.section_blue{
+    background-color: var(--first_color);
+    width: 100%;
+    height: 200px;
+}
+
+.section2{
+    position: relative;
+}
+.cont{
+    position: relative;
+    top: -170px;
+}
+.cont h3{color: var(--white_color);}
+.section2 .cont input{
+    background-color: #f8f8f87c;
+    outline: none;
+    border: 1px solid var(--white_color);
+    border-radius: 2px;
+    width: 300px;
+    height: 36px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.section2 .cont .search_icon{
+    position: absolute;
+    /* left: -50px; */
+    padding: 5px 10px 0 0;
+    z-index: 1000;
+}
+.section2 .cont select{
+    background-color:  #f8f8f898;
+    padding: 0 10px;
+    border-radius: 2px;
+    border: none;
+    margin: 0 5px;
+}
+.card:hover{
+    transition: all 0.7s;
+transform: scale(1.05);}
+
+.cards_row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px 15px;
+}
+.cards_row .card a{
+    /* text-decoration: none; */
+    color: var(--black_color);
+}
+.section2 .card{
+    width: 100%;
+    background-color: var(--white_color);
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+}
+.section2 .card .card_image{
+    border-radius: 15px 15px 0 0 !important;
+    width: 100%;
+    height: 234px;
+    background-size: cover;
+}
+.section2 .card p{
+    font-size: 12px;
+}
+.section2 .card h6{
+    font-size: 15px;
+}
+.section3 .cards-row2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px 15px;
+
+}
+.section3-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px 40px;
+}
+.section3-cards .card2{
+    background-color: var(--white_color);
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+}
+.card2 p{
+    font-size: 12px;
+}
+.section3 .card2 .img_container{
+height: 200px;
+}
+.end_section{
+    width: 100%;
+    background-color: var(--first_color);
+}
+.contact_form ul li a{
+    display: block;
+    text-decoration: none;
+    color: var(--white_color);
+    margin: 15px 0;
+    padding: 10px 0;
+}
+.contact_form .sin_btn{background-color: var(--black_color);}
+.contact_form .sin_btn:hover{
+    background-color: var(--white_color);
+}
+.contact_form ul li a:hover{
+    color: var(--second_color);
+}
+.contact_form form input,.contact_form form textarea{
+padding: 10px;
+margin: 5px;
+}
+.contact_form form input[placeholder="الاسم"]{
+    flex: 5;
+}
+.contact_form form input[placeholder="البريد الالكتروني"]{
+    flex: 7;
+    margin-left: 0;
+
+}
+.end_section footer{
+    background-color: var(--black_color);
+    color: var(--white_color);
+    text-align: center;
+    padding: 30px;
+}
+
+/* ستايل الكورس الفردي */
+.cours_header{
+    width: 100%;
+    height: 300px;
+    background: url('images/cours_header.svg');
+    color: var(--white_color);
+    text-align: center;
+}
+.cours_header p{
+    margin-top: 15px;
+    padding: 0 300px;
+}
+/* ستايل لوحة التحكم */
+.dashboard_header{
+    background-color: #343434;
+    color: var(--white_color);
+    width: 100%;
+}
+
+
+

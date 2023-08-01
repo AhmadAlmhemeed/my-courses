@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="54" height="54" fill="#f6a800"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-980.056 -1009.056)">
+    <g id="Icon" transform="translate(980.056 1009.056)">
+      <g id="Mask_Group_10" data-name="Mask Group 10" clip-path="url(#clip-path)">
+        <path id="time-quarter-to" d="M54,27A27,27,0,1,1,0,27a2.25,2.25,0,0,1,4.5,0A22.5,22.5,0,1,0,27,4.5,2.25,2.25,0,0,1,27,0,27.029,27.029,0,0,1,54,27ZM23.123,24.75H18a2.25,2.25,0,0,0,0,4.5h5.123a4.487,4.487,0,1,0,6.127-6.127V15.75a2.25,2.25,0,1,0-4.5,0v7.373a4.5,4.5,0,0,0-1.627,1.627ZM4.111,19.764a2.25,2.25,0,1,0-2.25-2.25A2.25,2.25,0,0,0,4.111,19.764ZM9.5,11.716a2.25,2.25,0,1,0-2.25-2.25A2.25,2.25,0,0,0,9.5,11.716ZM17.5,6.392a2.25,2.25,0,1,0-2.25-2.25A2.25,2.25,0,0,0,17.5,6.392Z" fill="#f6a800"/>
+      </g>
+    </g>
+  </g>
+</svg>
